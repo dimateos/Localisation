@@ -2785,14 +2785,14 @@ STR_5615    :L
 STR_5616    :Último elemento para bandera de cuadricula.
 STR_5617    :Mover elementos selec. arriba.
 STR_5618    :Mover elementos selec. abajo.
-#Estas líneas son en inglés
+# These are rides names, so not necessary to translate.
 STR_5619    :RollerCoaster Tycoon
 STR_5620    :Added Attractions
 STR_5621    :Loopy Landscapes
 STR_5622    :RollerCoaster Tycoon 2
 STR_5623    :Wacky Worlds
 STR_5624    :Time Twister
-#
+# End of ride names
 STR_5625    :Parques “Reales”
 STR_5626    :Otros parques
 STR_5627    :Agrupar lista de escenarios:
@@ -4128,17 +4128,6 @@ STR_SCNR    :Fort Anachronism
 STR_PARK    :Fort Anachronism
 STR_DTLS    :
 
-###########
-# Scenery #
-###########
-
-## Start OpenRCT2 Official
-
-[TTPIRF05]
-STR_NAME    :Techo
-
-## End OpenRCT2 Official
-
 ###############################################################################
 ## RCT2 Scenarios
 ###############################################################################
@@ -4330,7 +4319,6 @@ STR_SCNR    :Europa - Renovación
 STR_PARK    :Desde las cenizas
 STR_DTLS    :Un viejo parque se encuentra en mal estado. Has recibido una subvención de la Unión Europea para devolver a esta depauperada área a su antigua gloria. Tendrás que renovar el parque y ganar lo suficiente para pagar la subvención.
 
-
 <N. America - Extreme Hawaiian Island>
 STR_SCNR    :N. América - Isla hawaiana extrema
 STR_PARK    :Waikiki Guay
@@ -4346,7 +4334,6 @@ STR_SCNR    :N. América - Paraíso de montañas rusas
 STR_PARK    :Paraíso de montañas rusas
 STR_DTLS    :Eres un exitoso magnate de los negocios que se ha tomado cuatro años sabáticos. Tu deseo es construir un parque sin limitaciones de dinero.
 
-
 <South America - Inca Lost City>
 STR_SCNR    :Sudamérica; Ciudad perdida inca
 STR_PARK    :Fundador de la ciudad perdida
@@ -4361,7 +4348,6 @@ STR_DTLS    :En esta valiosa selva el espacio es limitado, tendrás que apretuja
 STR_SCNR    :Sudamérica - Carnaval de Río
 STR_PARK    :Costas de Sugarloaf
 STR_DTLS    :Gestionas un pequeño parque cerca de Río, pero el banco te ha retirado su préstamo. Tendrás que aumentar rápidamente tu capacidad de ganancias para pagar esta deuda inesperada.
-
 
 ###############################################################################
 ## Time Twister Scenarios
@@ -4546,3 +4532,14 @@ STR_DTLS    :¡Hey, chavales! ¡Vamos a divertirnos!{NEWLINE}Autores: Piehead & 
 STR_SCNR    :Sand Dune
 STR_PARK    :Sand Dune
 STR_DTLS    :Como propietario de un pequeño parque, has comprado un gran terreno junto a la playa para ampliarlo y atraer a más visitantes a las hermosas dunas, pero cuidado: no puedes perturbar esas dunas ecológicamente frágiles.{NEWLINE}Autor: rbarclay
+
+###########
+# Scenery #
+###########
+
+## Start OpenRCT2 Official
+
+[TTPIRF05]
+STR_NAME    :Techo
+
+## End OpenRCT2 Official

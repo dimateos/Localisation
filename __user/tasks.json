@@ -1,0 +1,38 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+
+    // default props
+    "type": "shell",
+    "detail": "no details...",
+    "problemMatcher": [],
+    "presentation": {
+        "panel": "dedicated",
+        "clear": true
+    },
+    "options": {"cwd": "${workspaceFolder}"},
+    
+    "tasks": [
+        {
+            "icon": {
+                "id": "cloud-upload",
+                "color": "terminal.ansiCyan"
+            },
+            "label": "UPDATE en-GB",
+            "command": "curl -o data/language/en-GB.txt https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/develop/data/language/en-GB.txt",
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        },
+        {
+            "icon": {
+                "id": "sync-ignored",
+                "color": "terminal.ansiCyan"
+            },
+            "label": "gitignore (local)",
+            "command": "code .git/info/exclude",
+            "problemMatcher": []
+        }
+    ]
+}

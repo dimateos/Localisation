@@ -1,0 +1,17 @@
+# Trans
+> Marked with bookmarks
+- Ingresar
+- Empty like: STR_0557
+- clic
+- object file ok? e.g. Ice
+
+# Fixes
+> Issue talking about it
+- .vscode utils -> gitignore
+- local script instead of task
+- Alignment of GB with ES -> comments/newlines
+- Inline comments? keep align ez e.g. STR_2779
+- objects end with '.'
+
+# IDEA
+- crawl and commit all .vscode/ folders to a repo auto instead of manually -> similar to CI

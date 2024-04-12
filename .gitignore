@@ -1,4 +1,5 @@
-# en-GB is maintained in main repository
+# en-GB is maintained in main repository (https://github.com/OpenRCT2/OpenRCT2/blob/develop/data/language/en-GB.txt)
+# use "script" to download the last version locally
 data/language/en-GB.txt
 
 # File resulting from running translation_check.py locally 
@@ -10,9 +11,10 @@ result.md
 *.lock.json
 [Bb]in
 [Oo]bj
-
-
 .project
+
+# vscode?
+.vscode
 
 # CLion
 .idea

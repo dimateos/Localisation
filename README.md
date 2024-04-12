@@ -1,5 +1,5 @@
-<!--TO VIEW THE DOCUMENT CORRECTLY: USE LINE WRAP METHOD "NO WRAP"-->
-<!--   Lines within these brackets are invisible and guides you   -->
+<!-- TO VIEW THE DOCUMENT CORRECTLY: USE LINE WRAP METHOD "NO WRAP" (more similar github web preview) -->
+<!-- Comments: lines within these brackets are invisible and guide you -->
 
 # Localisation
 This repository is for the translation of OpenRCT2 into other languages.<br/>
@@ -8,6 +8,8 @@ For the main development and codebase of OpenRCT2, visit [OpenRCT2/OpenRCT2](htt
 OpenRCT2's base language is English (UK), this is updated and maintained in the main repository.<br/>
 Other languages are maintained in this repository.<br/>
 Changes to the master branch are merged into the develop branch of OpenRCT2/OpenRCT2 every day at 4:00 AM UTC.
+
+<!-- link to original + script -->
 
 ### Chat
 | Language | Non Developer | Developer | Localisation |
@@ -23,6 +25,8 @@ To contribute to the translation of OpenRCT2, you will need to fork this reposit
 This allows you to edit and push changes of files to your fork so that you can then open a pull request.<br/>
 For more information, visit GitHub's official [forking guide](https://guides.github.com/activities/forking/).
 
+<!-- or edit online -->
+
 ### Creating a new language
 If you want to begin translating OpenRCT2 for a new language, create a new file in the data directory with the correct two letter [language](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#Partial_ISO_639_table) and [country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Decoding_table) (e.g. `cs-CZ`), then paste the contents of the [en-GB](https://github.com/OpenRCT2/OpenRCT2/blob/develop/data/language/en-GB.txt) file into it and start translating the strings.
 
@@ -36,6 +40,8 @@ If you want to become a maintainer, tell us what language you will be maintainin
 ### Checking & testing strings in-game
 You can always test the translated strings in-game before publishing a pull request. This can be especially handy to see if the strings fits the window.<br/>
 To do this, go to the directory where OpenRCT2 resides (not to be confused with the directory where it saves your parks and config!), then go to `data/language` and replace the existing file with your updated version.
+
+<!-- Another script to deploy? -->
 
 ### Language Status
 | Newest strings can be found in [issues](https://github.com/OpenRCT2/Localisation/issues) |
@@ -77,8 +83,8 @@ These languages only need strings if they differ from the one they are inheritin
 
 | Language | Inherits from | Maintainer |          
 | -------- | ------------- | ---------- |
-| [![](https://img.shields.io/badge/en--US-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/en-US.txt) | en-GB |  |
-| [![](https://img.shields.io/badge/fr--CA-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/fr-CA.txt) | fr-FR | [TheClaudeQC](https://github.com/TheClaudeQC) |
+| [![](https://img.shields.io/badge/en--US-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/en-US.txt) | [en-GB](https://github.com/OpenRCT2/OpenRCT2/blob/develop/data/language/en-GB.txt) |  |
+| [![](https://img.shields.io/badge/fr--CA-maintained-green.svg)](https://github.com/OpenRCT2/Localisation/blob/master/data/language/fr-CA.txt) | [fr-FR](https://github.com/OpenRCT2/Localisation/blob/master/data/language/fr-FR.txt) | [TheClaudeQC](https://github.com/TheClaudeQC) |
 
 ### Questions & Support
 
@@ -94,7 +100,7 @@ We have an action that automatically runs on every Pull Request and reports, for
 
 The script is on the repository and can be run locally if one wants to anticipate the results, by doing:
 
-```
+```sh
 python .github\workflows\translation_check.py -r <path to en-GB.txt> -m <path to data/language folder on master branch> -b <path to data/language folder on your branch>
 ```
 
