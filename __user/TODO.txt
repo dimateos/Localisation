@@ -12,6 +12,7 @@
 - Alignment of GB with ES -> comments/newlines
 - Inline comments? keep align ez e.g. STR_2779
 - objects end with '.'
+- STR_3267 "dificultar" etc -> some verbs in infinitive vs third person
 
 # IDEA
 - crawl and commit all .vscode/ folders to a repo auto instead of manually -> similar to CI
